@@ -2,6 +2,8 @@ package com.dio.live.model;
 
 import lombok.*;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Objects;
 
 @Getter
@@ -10,9 +12,10 @@ import java.util.Objects;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
+@Entity
 public class JornadaTrabalho {
-
-    private long id;
+    @Id
+    private Long id;
     private String descricao;
 
 }

@@ -12,8 +12,10 @@ import javax.persistence.Id;
 @EqualsAndHashCode
 @Builder
 @Entity
-public class NivelAcesso {
+public class Ocorrencia {
     @Id
     private Long id;
+    private String nome;
     private String descricao;
+
 }

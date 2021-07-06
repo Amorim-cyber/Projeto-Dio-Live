@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @EqualsAndHashCode
 @Builder
 @Entity
-public class NivelAcesso {
+public class TipoData {
     @Id
     private Long id;
     private String descricao;
