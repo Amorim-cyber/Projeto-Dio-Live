@@ -36,3 +36,25 @@ Criamos um controller, um repository e um service para a classe "JornadaTrabalho
 Desenvolvemos um pouco mais os componentes controller, repository e services de "JornadaTrabalho" adicionando um metodo post à classe.
 <br><br>
 </p>
+
+
+<p style="background-color: lightgreen; border-radius: 3px;">
+<strong>TERCEIRO COMMIT</strong><br><br>
+<strong>Parte 11:</strong><br>
+Foi introduzido os metodos GET findAll e findByID na classe "JornadaTrabalho" passando as anotações parametros @RequestBody e @PathVariable além de aprender um pouco mais sobre tratamento de exceção com a classe ResponseEntity.
+<br><br><strong>Parte 12:</strong><br>
+Foi introduzidos o metodo PUT e DELETE para a classe "JornadaTrabalho".<br>
+<br><strong>Parte 13:</strong><br>
+Realizado a configuração do Swagger no projeto.<br>
+<br><strong>Parte 14:</strong><br>
+Realizando uns testes dos metodos API da classe "JornadaTrabalho" no postman, aprendi um pouco mais sobre a anotação @GeneretedValue.<br>
+<br><strong>Parte 15:</strong><br>
+Aprendi o uso da notação @Audited e da configuração spring.jpa.show-sql = true para visualizar os comandos sql.<br>
+<br><strong>Parte 16:</strong><br>
+Subindo o projeto no Swagger. Coloquei os metodos do CRUD nas demais classes.
+<br><br>
+</p>
+
+
+
+> :exclamation: TERMINADO ESTA ETAPA DO PROJETO :exclamation:
